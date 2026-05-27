@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
                       resources, providers, and definitions.'
   gem.license     = 'MIT'
   gem.required_ruby_version = '>= 2.2.0'
-  gem.add_runtime_dependency 'yard', '~> 0.9.9'
+  gem.add_runtime_dependency 'yard', '>= 0.9.9'
   gem.add_runtime_dependency 'redcarpet', '>= 2.1.1'
 
   gem.files = Dir.glob('templates/**/*.{erb,rb,css,js}')
