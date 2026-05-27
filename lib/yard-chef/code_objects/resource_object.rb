@@ -77,6 +77,11 @@ module YARD::CodeObjects
       end
     end
 
+    def map_resource(*args)
+      # Not implemented yet, return empty hash
+      {} 
+    end
+    
     # Register 'resource' as a child of 'chef' namespace
     RESOURCE = ChefObject.register(CHEF, 'resource', :resource)
   end
